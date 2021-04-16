@@ -1,9 +1,7 @@
+import classes from './logo.module.css';
+
 const Logo = () => {
-   return (
-      <div>
-         <h2>Logo</h2>
-      </div>
-   );
+   return <div className={classes.logo}>Next Blog</div>;
 };
 
 export default Logo;
