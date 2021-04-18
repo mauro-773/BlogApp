@@ -1,9 +1,21 @@
+import Head from 'next/head';
 import AllPosts from '../../components/postsPage/AllPosts';
 
 import { getAllPosts } from '../../lib/postsUtil';
 
 const PostsPage = ({ allPosts }) => {
-   return <AllPosts posts={allPosts} />;
+   return (
+      <>
+         <Head>
+            <title>All my posts!</title>
+            <meta
+               name="description"
+               content="A list of all programming-related tutorials and posts!"
+            />
+         </Head>
+         <AllPosts posts={allPosts} />
+      </>
+   );
 };
 
 export const getStaticProps = async () => {
