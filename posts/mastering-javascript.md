@@ -1,14 +1,14 @@
 ---
-title: Mastering JavaScript
-excerpt: JavaScript is the most important programming language for web development. You probably don't know it well enough!
+title: Que es JavaScript
+excerpt: JavaScript es el lenguaje más importante para la web
 image: mastering-js-thumb.png
-isFeatured: false
+isFeatured: true
 date: '2021-10-30'
 ---
 
-JavaScript powers the web - it's **the** most important programming language you need to know as a web developer.
+JavaScript es un lenguaje de programación o de secuencias de comandos que te permite implementar funciones complejas en páginas web, cada vez que una página web hace algo más que sentarse allí y mostrar información estática para que la veas.
 
-For example, you should understand code like this:
+Por ejemplo, el siguiente código es sencillo de entender
 
 ```js
 const basics = 'Okay, that should not be too difficult actually';
@@ -20,4 +20,4 @@ function printBasics() {
 printBasics();
 ```
 
-Learn more about it [here](https://academind.com).
+Lee más [aqui](https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/What_is_JavaScript).

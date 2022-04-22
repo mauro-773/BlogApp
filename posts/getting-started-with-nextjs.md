@@ -1,32 +1,29 @@
 ---
-title: 'Getting Started with NextJS'
+title: 'Empezando con NextJS'
 date: '2022-10-16'
 image: getting-started-with-nextjs.png
-excerpt: NextJS is a the React framework for production - it makes building fullstack React apps and sites a breeze and ships with built-in SSR.
+excerpt: NextJS es el framework de React para producción hace que la creación de aplicaciones y sitios React sea muy fácil y soporte SSR
 isFeatured: true
 ---
 
-NextJS is a **framework for ReactJS**.
+Creado por Vercel, Next.js es un marco de trabajo que permite a los desarrolladores crear aplicaciones de página única y aplicaciones web de alto rendimiento a través de la renderización del lado del servidor.
 
-Wait a second ... a "framework" for React? Isn't React itself already a framework for JavaScript?
+Además ofrece generaciones de sitios estáticos, renderizado previo, excelente funcionalidad y otras características.
 
-Well ... first of all, React is a "library" for JavaScript. That seems to be important for some people.
+Next.js es una opción extraordinariamente popular.
 
-Not for me, but still, there is a valid point: React already is a framework / library for JavaScript. So it's already an extra layer on top of JS.
+## ¿Por qué debería usar NextJS?
 
-## Why would we then need NextJS?
+- Es ultrarrápido
 
-Because NextJS makes building React apps easier - especially React apps that should have server-side rendering (though it does way more than just take care of that).
+- Se puede utilizar rutas API (interfaz de programación de aplicaciones)
 
-In this article, we'll dive into the core concepts and features NextJS has to offer:
+- A diferencia de Create-React-App, Next.js es fácil de personalizar. Se pueden agregar complementos de Babel y cargadores de Webpack, por ejemplo.
 
--  File-based Routing
--  Built-in Page Pre-rendering
--  Rich Data Fetching Capabilities
--  Image Optimization
--  Much More
+- La acción de desplegar con Next.js es simple. Puede desplegar fácilmente sus aplicaciones React, sin la necesidad de una supervisión exhaustiva.
 
-## File-based Routing
+
+## Enrutamiento basado en archivos
 
 ![Create routes via your file + folder structure](nextjs-file-based-routing.png)
 ... More content ...
