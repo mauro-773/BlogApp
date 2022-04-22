@@ -56,16 +56,16 @@ const ContactForm = () => {
   if (requestStatus === 'pending') {
     notification = {
       status: 'pending',
-      title: 'Sending message...',
-      message: 'Your message is on its way!',
+      title: 'Enviando mensaje...',
+      message: 'Tu mensaje se está enviando!',
     };
   }
 
   if (requestStatus === 'success') {
     notification = {
       status: 'success',
-      title: 'Success!',
-      message: 'Message sent successfully!',
+      title: 'Exito!',
+      message: 'Tu mensaje se envió satisfactoriamente',
     };
   }
 
@@ -73,7 +73,7 @@ const ContactForm = () => {
     notification = {
       status: 'error',
       title: 'Error :(',
-      message: 'Something went wrong!',
+      message: 'Algo salió mal!',
     };
   }
 
