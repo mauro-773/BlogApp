@@ -2,7 +2,7 @@
 title: Que es JavaScript
 excerpt: JavaScript es el lenguaje más importante para la web
 image: mastering-js-thumb.png
-isFeatured: true
+isFeatured: false
 date: '2021-10-30'
 ---
 
