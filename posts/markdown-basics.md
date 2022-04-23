@@ -1,6 +1,6 @@
 ---
 title: ¿Qué es Markdown?
-excerpt: JavaScript es el lenguaje más importante para la web
+excerpt: Markdown es un lenguaje de marcado que facilita la aplicación de formato a un texto empleando una serie de caracteres de una forma especial.
 image: markdown-logo.jpg
 isFeatured: true
 date: '2022-04-22'
